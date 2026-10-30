@@ -13,7 +13,7 @@ To run this project locally, clone the repository and install the required R pac
 
 ```r
 # Clone repository
-# git clone [https://github.com/](https://github.com/)[yourname]/markdown-buddy-[yourname].git
+# git clone https://github.com/Mhd-barakat/markdown-buddy-Mohamad-Barakat.git
 
 # Required R packages
 install.packages(c("tidyverse", "knitr", "rmarkdown"))

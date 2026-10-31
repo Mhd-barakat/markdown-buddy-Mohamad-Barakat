@@ -17,3 +17,12 @@ To run this project locally, clone the repository and install the required R pac
 
 # Required R packages
 install.packages(c("tidyverse", "knitr", "rmarkdown"))
+
+## AI Assistance Disclosure & Verification
+- **AI Tool Used:** Gemini
+- **Main Prompts:** Iterative prompting (Seed, Refinement, Critique) for README, Rmd, and Reflection structure.
+- **Verification Pattern Followed:**
+  1. *Primary Execution:* Executed code and rendered Markdown directly in RStudio and local environment.
+  2. *Independent Cross-Check:* Used GitHub Markdown Preview to verify structure and layout integrity.
+  3. *Self Spot-Check:* Checked output against real GitHub repositories (e.g., Tidyverse ecosystem) for readability and layout standards.
+- **Manual Modifications:** Refined block syntax, verified header levels, and ensured all synthetic data parameters are accurate.

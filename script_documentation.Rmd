@@ -1,8 +1,11 @@
+---
+title: "Script Documentation - R Markdown"
+author: "Mohamad Barakat"
+date: "2026-10-20"
+output: html_document
+---
 
-
-AI Assistance Declaration: I used Gemini for structuring R Markdown headers, formatting code chunks, and validating RMarkdown syntax. 
-Prompts used: "Here's my R script description. Suggest Markdown formatting and code block examples", 
-"Add syntax highlighting and improve section organization (# Purpose, ## Inputs, ## Outputs)", and "Is the Markdown consistent with RMarkdown best practices?". I verified outputs using RStudio Knit. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+AI Assistance Declaration: I used Gemini for structuring R Markdown headers, formatting code chunks, and validating RMarkdown syntax. Prompts used: "Here's my R script description. Suggest Markdown formatting and code block examples", "Add syntax highlighting and improve section organization (# Purpose, ## Inputs, ## Outputs)", and "Is the Markdown consistent with RMarkdown best practices?". I verified outputs using RStudio Knit. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
 
 # Purpose
 This R script processes synthetic datasets to demonstrate reproducible data manipulation, data cleaning, and basic visual analysis for analytics workflows.
@@ -18,3 +21,10 @@ The script expects the following input configuration and synthetic data paramete
 # Load required packages
 library(tidyverse)
 library(knitr)
+
+# Load synthetic dataset
+# data <- read.csv("data/synthetic_data.csv")
+# summary(data)
+## Outputs
+- Cleaned summary tables and statistical outputs.
+- Rendered report validating data integrity and formatting standards.

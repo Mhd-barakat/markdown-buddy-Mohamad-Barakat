@@ -1,0 +1,20 @@
+
+
+AI Assistance Declaration: I used Gemini for structuring R Markdown headers, formatting code chunks, and validating RMarkdown syntax. 
+Prompts used: "Here's my R script description. Suggest Markdown formatting and code block examples", 
+"Add syntax highlighting and improve section organization (# Purpose, ## Inputs, ## Outputs)", and "Is the Markdown consistent with RMarkdown best practices?". I verified outputs using RStudio Knit. All final calculations are done by myself. I am responsible for the accuracy and originality of this work.
+
+# Purpose
+This R script processes synthetic datasets to demonstrate reproducible data manipulation, data cleaning, and basic visual analysis for analytics workflows.
+
+## Inputs
+The script expects the following input configuration and synthetic data parameters:
+* **Dataset Format:** CSV (`synthetic_data.csv`)
+* **Required R Libraries:** `tidyverse`, `knitr`
+
+## Script Execution & Analysis
+
+```{r setup, message=FALSE, warning=FALSE}
+# Load required packages
+library(tidyverse)
+library(knitr)
